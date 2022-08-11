@@ -4,9 +4,9 @@
 A princípio, os serviços foram desenvolvidos em `go`. Mas a idéia é expandir isso utilizando outras linguagens para serviços posteriores e que façam sentido para o projeto.
 
 O fluxo se resume da seguinte maneira:
-    - `broker` recebe as requisições e gera as mensagens para serem consumidas em mensageria pelos outros apps.
-    - `listener` ouvinte das mensagens que sao postadas e as consume de acordo com oque cada app espera. 
-    - `auth` a principio é o unico servico desse projeto.
+  - `broker` recebe as requisições e gera as mensagens para serem consumidas em mensageria pelos outros apps.
+  - `listener` ouvinte das mensagens que sao postadas e as consume de acordo com oque cada app espera. 
+  - `auth` a principio é o unico servico desse projeto.
     
 
 Para filas é utilizado o serviço `RabbitMQ` e esse serviço foi implementado no código utilizando um lib do próprio go.
