@@ -7,6 +7,7 @@ O fluxo se resume da seguinte maneira:
   - `broker` recebe as requisições e gera as mensagens para serem consumidas em mensageria pelos outros apps.
   - `listener` ouvinte das mensagens que sao postadas e as consume de acordo com oque cada app espera. 
   - `auth` a principio é o unico servico desse projeto.
+  - `project` contém a base do projeto com docker.
     
 
 Para filas é utilizado o serviço `RabbitMQ` e esse serviço foi implementado no código utilizando um lib do próprio go.
